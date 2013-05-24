@@ -10,3 +10,8 @@ tasks = []
 def clear():
     global tasks
     tasks = []
+
+# Handler for new task
+def new(task):
+    tasks.append(task)
+    
