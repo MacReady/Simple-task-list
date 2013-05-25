@@ -14,4 +14,11 @@ def clear():
 # Handler for new task
 def new(task):
     tasks.append(task)
+
+# Handler for remove number
+def remove_num(tasknum):
+    n = int(tasknum)
+    if n > 0 and n <= len(tasks):
+        tasks.pop(n-1)
+    
     
